@@ -1,7 +1,7 @@
-# Import QRCode from pyqrcode
 import pyqrcode
 import json
 import png
+import os
 from pyqrcode import QRCode
 from flask import send_file
 from flask import request
